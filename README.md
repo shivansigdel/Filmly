@@ -319,9 +319,6 @@ curl -X POST http://localhost:4000/api/admin/reload-model \
   -d '{"bucket":"'$S3_BUCKET'","key":"'$S3_PREFIX'/cf_factors.json"}'
 ```
 
-### Example Demo:
-
----
 
 ## Acknowledgements
 
