@@ -1,1 +1,1 @@
-# Filmly
+Filmly — Personalized Movie RecommendationsFilmly is a full‑stack movie recommendation app with a React frontend, a Node/Express API, MongoDB storage, and a collaborative‑filtering model. Users rate movies (1–10), get a personalized Suggested For You shelf, and can browse trending/now‑playing/top‑rated via TMDb.
