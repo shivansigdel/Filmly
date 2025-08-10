@@ -114,7 +114,7 @@ def main():
             s3.upload_file(out_path, bucket, key)
             print(f"Uploaded to s3://{bucket}/{key}", flush=True)
         except Exception as e:
-            print(f"⚠️ S3 upload skipped/failed: {e}", flush=True)
+            print(f"S3 upload skipped/failed: {e}", flush=True)
 
     client.close()
     print("All done.", flush=True)
