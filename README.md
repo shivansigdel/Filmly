@@ -70,7 +70,7 @@ JWT_SECRET_KEY=
 TMDB_API_KEY=
 TMDB_BEARER_TOKEN=
 
-ADMIN_KEY=6d5e4f3
+ADMIN_KEY=
 
 S3_BUCKET=
 S3_PREFIX=
@@ -227,7 +227,7 @@ Filmly's recommender uses **TruncatedSVD** (from `sklearn.decomposition`) on a s
 
 ---
 
-### How Recommendations Work (at a glance)
+### How Recommendations Work
 
 * You rate a few movies (5–10) to kick‑start the system.
 * Behind the scenes, Filmly uses **Truncated SVD** (a matrix‑factorization technique) to learn a handful of hidden **themes** from the anonymized user–movie ratings.
