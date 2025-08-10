@@ -1,0 +1,13 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODYyZGExNWI3ZWFlY2U3Zjk0NTlhYWEiLCJpYXQiOjE3NTMwNTc5NjIsImV4cCI6MTc1MzA2MTU2Mn0.zw7n-gHJDvspbW02feUcGrHBWF_KZS0g8Mct1EGnsQU
+
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "dummy@gmail.com",
+  "password": "password"
+}
+
+### Get recommendations
+GET http://localhost:4000/api/recs
+Authorization: Bearer {{token}}
